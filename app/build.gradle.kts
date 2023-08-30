@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.org.jetbrains.kotlin.android)
     alias(libs.plugins.com.google.dagger.hilt.android)
     kotlin("kapt")
+    id("kotlin-parcelize")
 }
 
 android {
@@ -54,7 +55,8 @@ dependencies {
     implementation(composeBom)
     implementation(libs.compose.material)
     implementation(libs.activity.compose)
-    implementation(libs.lifecycle.compose)
+    implementation(libs.lifecycle.viewmodel.compose)
+    implementation(libs.lifecycle.runtime.compose)
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)

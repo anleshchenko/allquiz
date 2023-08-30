@@ -3,7 +3,7 @@ package com.leshchenko.allquiz.presentation
 import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.appcompat.app.AppCompatActivity
-import com.leshchenko.allquiz.presentation.ui.MainScreen
+import com.leshchenko.allquiz.presentation.ui.screen.MainScreen
 
 class MainActivity : AppCompatActivity() {
 
