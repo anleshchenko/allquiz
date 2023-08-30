@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">All Quiz!</string>
+    <string name="random_quiz">Take a random quiz!</string>
 </resources>
